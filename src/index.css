@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+*{
+  font-family: "Oxygen" , sans-serif;
+}
+
+::-webkit-scrollbar{
+  height: 2px;
+  background: #222;
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #009875;
+}
+
+.artist{
+  grid-template-columns: repeat(50 , 400px);
+  grid-template-rows: auto auto;
+}
